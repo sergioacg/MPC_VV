@@ -1,0 +1,17 @@
+# Ignore all files by default
+*
+
+# Allow directories to be searched by Git
+!*/
+
+# Allow specific MATLAB and Simulink source files
+!*.m
+!*.slx
+!*.mat
+
+# Allow workspace data files necessary for the simulation
+!*.mat
+
+# Allow essential Git repository files
+!.gitignore
+!README.md
